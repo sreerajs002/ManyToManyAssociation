@@ -1,0 +1,12 @@
+<h1>New Image</h1>
+
+ <%= form_for @image, :url=>{:action=>"create",:aid=>@attachment.id},:html => { :multipart => true } do |form| %>
+<%= render partial: 'form' ,locals: {f: form}%>
+<% end %>
+<br>
+
+
+
+<br>
+<%= link_to 'Back', @attachment , class:'btn btn-block btn-info col-xs-12 col-md-12'%>
+    

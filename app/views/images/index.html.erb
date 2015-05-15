@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Images</h1>
+
+<table class="table table-striped table-condensed">
+  <thead>
+    <tr>
+      <th>Album</th>
+      <th>User</th>
+      <th>imagename</th>
+
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @images.each do |image| %>
+      <tr>
+      <%if image.attachment%>
+        <td><%= image.attachment.title %></td>
+        <td><%= image.attachment.user.name %></td>
+        <td><%= image.photo_file_name %></td>
+        <td>
+        <%= link_to image , class:'btn btn-success btn-xs ' do%><i class="glyphicon glyphicon-eye-open"></i><% end %>
+        <%= link_to  edit_image_path(image,aid:image.attachment.id) , class:'btn btn-warning btn-xs' do%><i class="glyphicon glyphicon-pencil"></i><% end %>  
+        <%= link_to image, method: :delete, data: { confirm: 'Are you sure?' } , class:'btn btn-danger btn-xs' do%><i class="glyphicon glyphicon-trash"></i><% end %>
+        </td>
+      <%end%>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+ 

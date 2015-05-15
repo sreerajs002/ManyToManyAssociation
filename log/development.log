@@ -1,0 +1,680 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-18 15:51:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 8247ms (Views: 8209.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/scaffolds-e3755f127d9bf3ce18cf69588c98ea3f.css?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/application-8d29e81afa31be8e30debac0213b0eda.css?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/attachments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/attachments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:53 +0530
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:54 +0530
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:54 +0530
+
+
+Started GET "/assets/application-28d8fb1a5f2a4b6bb87fcc800f93813d.js?body=1" for 127.0.0.1 at 2015-02-18 15:51:54 +0530
+
+
+Started GET "/assets/icon-41a9c2b54984d4657dc3f911d348d667.png" for 127.0.0.1 at 2015-02-18 15:51:54 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-f9ce8fbb6527f40ca42c93b3598e82ca.woff" for 127.0.0.1 at 2015-02-18 15:51:54 +0530
+
+
+Started GET "/users/4" for 127.0.0.1 at 2015-02-18 15:51:57 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`user_id` = '4'
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 27[0m
+  Rendered users/show.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 347ms (Views: 264.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2015-02-18 15:52:00 +0530
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images`
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 25 LIMIT 1[0m  [["id", 25]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 26 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 22 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 27 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  Rendered images/index.html.erb within layouts/application (52.7ms)
+Completed 200 OK in 202ms (Views: 197.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2015-02-18 15:52:03 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT `attachments`.* FROM `attachments`[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 26[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 27[0m
+  Rendered attachments/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 191ms (Views: 188.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-18 15:52:05 +0530
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 161ms (Views: 159.4ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'attachments'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `attachments`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'images'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `images`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-15 16:11:23 +0530
+
+ActiveRecord::NoDatabaseError (Unknown database 'multiAttacPapClip_development'):
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:436:in `new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:446:in `checkout_new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:565:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (49.7ms)
+  [1m[36m (340.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (634.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateUsers (20150212035136)
+  [1m[35m (331.7ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150212035136')
+  [1m[36m (47.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAttachments (20150212035822)
+  [1m[35m (311.0ms)[0m  CREATE TABLE `attachments` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150212035822')
+  [1m[36m (42.9ms)[0m  [1mCOMMIT[0m
+Migrating to AddUseridToAttachments (20150212041630)
+  [1m[35m (631.0ms)[0m  ALTER TABLE `attachments` ADD `user_id` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150212041630')
+  [1m[36m (42.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateImages (20150212050543)
+  [1m[35m (386.7ms)[0m  CREATE TABLE `images` (`id` int(11) auto_increment PRIMARY KEY, `attachment_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_images_on_attachment_id`  (`attachment_id`) ) ENGINE=InnoDB
+  [1m[36m (1003.0ms)[0m  [1mALTER TABLE `images` ADD CONSTRAINT `fk_rails_0adee060ec`
+FOREIGN KEY (`attachment_id`)
+  REFERENCES `attachments` (`id`)
+[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150212050543')[0m
+  [1m[35m (42.5ms)[0m  COMMIT
+Migrating to AddAttachmentPhotoToImages (20150212050732)
+  [1m[36m (690.0ms)[0m  [1mALTER TABLE `images` ADD `photo_file_name` varchar(255)[0m
+  [1m[35m (635.1ms)[0m  ALTER TABLE `images` ADD `photo_content_type` varchar(255)
+  [1m[36m (746.1ms)[0m  [1mALTER TABLE `images` ADD `photo_file_size` int(11)[0m
+  [1m[35m (603.2ms)[0m  ALTER TABLE `images` ADD `photo_updated_at` datetime
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150212050732')
+  [1m[36m (43.0ms)[0m  [1mCOMMIT[0m
+Migrating to AddDescriptionToAttachments (20150212071010)
+  [1m[35m (556.9ms)[0m  ALTER TABLE `attachments` ADD `description` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150212071010')
+  [1m[36m (43.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'attachments'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `attachments`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'images'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `images`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'multiAttacPapClip_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-15 16:11:58 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 1253ms (Views: 1234.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/attachments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-15 16:11:59 +0530
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-15 16:12:00 +0530
+
+
+Started GET "/assets/scaffolds-e3755f127d9bf3ce18cf69588c98ea3f.css?body=1" for 127.0.0.1 at 2015-05-15 16:12:00 +0530
+
+
+Started GET "/assets/attachments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-15 16:12:00 +0530
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-15 16:12:00 +0530
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-15 16:12:00 +0530
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-05-15 16:12:02 +0530
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (72.8ms)
+  Rendered users/new.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 351ms (Views: 344.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-15 16:12:06 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2BmqcAV54HORechYrBA5gQzel4iX7PT/FI6sbbMTh/QQbkXprU7gHYeU26uDwYNnfbM8v3km9YhfiSrGi8IJiA==", "user"=>{"name"=>"asdads", "email"=>"adad"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('asdads', 'adad', '2015-05-15 10:42:06.159898', '2015-05-15 10:42:06.159898')
+  [1m[36m (144.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/users/1
+Completed 302 Found in 150ms (ActiveRecord: 145.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-05-15 16:12:06 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` WHERE `attachments`.`user_id` = '1'[0m
+  Rendered users/show.html.erb within layouts/application (146.1ms)
+Completed 200 OK in 301ms (Views: 291.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/attachments/new?uid=1" for 127.0.0.1 at 2015-05-15 16:12:09 +0530
+Processing by AttachmentsController#new as HTML
+  Parameters: {"uid"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered attachments/_form.html.erb (2.3ms)
+  Rendered attachments/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 147ms (Views: 141.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/attachments?uid=1" for 127.0.0.1 at 2015-05-15 16:12:12 +0530
+Processing by AttachmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"faEQ9LsnfAVmv27OpD9sm5gEY15KSmakiMFvvEGiH7W11v9tExB8a3BSfT2L7tZ96WnIaaSAZ9PDxukXeXORyQ==", "attachment"=>{"title"=>"asdad", "description"=>"asdadsad"}, "commit"=>"Create Attachment", "uid"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `attachments` (`title`, `description`, `user_id`, `created_at`, `updated_at`) VALUES ('asdad', 'asdadsad', '1', '2015-05-15 10:42:12.221124', '2015-05-15 10:42:12.221124')[0m
+  [1m[35m (67.8ms)[0m  COMMIT
+Redirected to http://localhost:3001/users/1
+Completed 302 Found in 77ms (ActiveRecord: 68.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-05-15 16:12:12 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`user_id` = '1'
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1[0m
+  Rendered users/show.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 176ms (Views: 172.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/attachments/1" for 127.0.0.1 at 2015-05-15 16:12:17 +0530
+Processing by AttachmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAttachment Load (0.4ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+  [1m[36mImage Load (0.7ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered attachments/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 149ms (Views: 145.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/images/new?aid=1" for 127.0.0.1 at 2015-05-15 16:12:18 +0530
+Processing by ImagesController#new as HTML
+  Parameters: {"aid"=>"1"}
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  Rendered images/_form.html.erb (1.1ms)
+  Rendered images/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 229ms (Views: 221.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/images?aid=1" for 127.0.0.1 at 2015-05-15 16:12:36 +0530
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zQuJyLkudGLEl9gigZVhaAWvkQbwrNl4VQJJcFESZeIFfGZRERl0DNJ6y9GuRNuOdMI6MR5m2A8eBc/bacPrng==", "photo"=>#<ActionDispatch::Http::UploadedFile:0x007f637c1d3a80 @tempfile=#<Tempfile:/tmp/RackMultipart20150515-31461-1ks2paa.jpg>, @original_filename="aaaa (7th copy).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo\"; filename=\"aaaa (7th copy).jpg\"\r\nContent-Type: image/jpeg\r\n">, "commit"=>"Create Image", "aid"=>"1"}
+  [1m[35mAttachment Load (0.4ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `each' for #<ActionDispatch::Http::UploadedFile:0x007f637c1d3a80>):
+  app/controllers/images_controller.rb:29:in `block in create'
+  app/controllers/images_controller.rb:28:in `create'
+
+
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (35.1ms)
+
+
+Started GET "/image" for 127.0.0.1 at 2015-05-15 16:12:48 +0530
+
+ActionController::RoutingError (No route matches [GET] "/image"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/nyros/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (48.2ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2015-05-15 16:12:51 +0530
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images`[0m
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 250ms (Views: 248.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2015-05-15 16:12:55 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT `attachments`.* FROM `attachments`
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  Rendered attachments/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 148ms (Views: 146.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-05-15 16:12:58 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-05-15 16:13:01 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mAttachment Load (0.3ms)[0m  [1mSELECT `attachments`.* FROM `attachments` WHERE `attachments`.`user_id` = '1'[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  Rendered users/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 148ms (Views: 145.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/attachments/1" for 127.0.0.1 at 2015-05-15 16:13:03 +0530
+Processing by AttachmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered attachments/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 144ms (Views: 141.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/new?aid=1" for 127.0.0.1 at 2015-05-15 16:13:04 +0530
+Processing by ImagesController#new as HTML
+  Parameters: {"aid"=>"1"}
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+  Rendered images/_form.html.erb (0.5ms)
+  Rendered images/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 149ms (Views: 147.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/images?aid=1" for 127.0.0.1 at 2015-05-15 16:13:08 +0530
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CSRZZp2iwNdkH1226otx9eU09b+lw54MtrjfmE2AigvBU7b/NZXAuXLyTkXFWssTlFleiEsJn3v9v1kzdVEEdw==", "photo"=>[#<ActionDispatch::Http::UploadedFile:0x000000052b6a10 @tempfile=#<Tempfile:/tmp/RackMultipart20150515-31461-1snc4hl.jpg>, @original_filename="aaaa (7th copy).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[]\"; filename=\"aaaa (7th copy).jpg\"\r\nContent-Type: image/jpeg\r\n">], "commit"=>"Create Image", "aid"=>"1"}
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+Command :: file -b --mime '/tmp/c0ebbf2b040149194ea55aeb979f6d9420150515-31461-9ustez.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]'
+Command :: convert '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]' -auto-orient -resize "100x100>" '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd20150515-31461-1c0weel'
+Command :: file -b --mime '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd20150515-31461-1c0weel'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]'
+Command :: convert '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd.jpg[0]' -auto-orient -resize "100x100>" '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd20150515-31461-59ghs1'
+Command :: file -b --mime '/tmp/56c08d4f62ffdca5532d7421cb8c9ade20150515-31461-1ix0wrd20150515-31461-59ghs1'
+  [1m[35m (0.1ms)[0m  BEGIN
+Command :: file -b --mime '/tmp/c0ebbf2b040149194ea55aeb979f6d9420150515-31461-y21o8d.jpg'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `images` (`photo_file_name`, `photo_content_type`, `photo_file_size`, `photo_updated_at`, `attachment_id`, `created_at`, `updated_at`) VALUES ('aaaa_(7th_copy).jpg', 'image/jpeg', 65558, '2015-05-15 10:43:08.038443', 1, '2015-05-15 10:43:08.685151', '2015-05-15 10:43:08.685151')[0m
+  [1m[35m (88.8ms)[0m  COMMIT
+Redirected to http://localhost:3001/attachments/1
+Completed 302 Found in 790ms (ActiveRecord: 89.6ms)
+
+
+Started GET "/attachments/1" for 127.0.0.1 at 2015-05-15 16:13:08 +0530
+Processing by AttachmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAttachment Load (0.5ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.5ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  [1m[36mAttachment Load (0.6ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered attachments/show.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 174ms (Views: 170.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/images/new?aid=1" for 127.0.0.1 at 2015-05-15 16:13:10 +0530
+Processing by ImagesController#new as HTML
+  Parameters: {"aid"=>"1"}
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  Rendered images/_form.html.erb (0.5ms)
+  Rendered images/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 154ms (Views: 152.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/images?aid=1" for 127.0.0.1 at 2015-05-15 16:13:16 +0530
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ROhmN8MRYfehn72TrzAecrFswdH8Z6iIK82KcDFAw1+Mn4muayZhmbdyrmCA4aSUwAFq5hKtqf9gygzbCZFNIw==", "photo"=>[#<ActionDispatch::Http::UploadedFile:0x00000001b0d258 @tempfile=#<Tempfile:/tmp/RackMultipart20150515-31461-bl41cj.jpg>, @original_filename="aaaa (5th copy).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"photo[]\"; filename=\"aaaa (5th copy).jpg\"\r\nContent-Type: image/jpeg\r\n">], "commit"=>"Create Image", "aid"=>"1"}
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+Command :: file -b --mime '/tmp/15fb84f0ccc61df81a7734112c467f3620150515-31461-4vbnz.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]'
+Command :: convert '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]' -auto-orient -resize "100x100>" '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn20150515-31461-13hp547'
+Command :: file -b --mime '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn20150515-31461-13hp547'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]'
+Command :: convert '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn.jpg[0]' -auto-orient -resize "100x100>" '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn20150515-31461-1ccukrz'
+Command :: file -b --mime '/tmp/092c501ec198c528a55332205ab0c38520150515-31461-89cawn20150515-31461-1ccukrz'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/tmp/15fb84f0ccc61df81a7734112c467f3620150515-31461-1ktsys9.jpg'
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `images` (`photo_file_name`, `photo_content_type`, `photo_file_size`, `photo_updated_at`, `attachment_id`, `created_at`, `updated_at`) VALUES ('aaaa_(5th_copy).jpg', 'image/jpeg', 65558, '2015-05-15 10:43:16.627308', 1, '2015-05-15 10:43:16.800122', '2015-05-15 10:43:16.800122')
+  [1m[36m (126.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/attachments/1
+Completed 302 Found in 329ms (ActiveRecord: 127.5ms)
+
+
+Started GET "/attachments/1" for 127.0.0.1 at 2015-05-15 16:13:16 +0530
+Processing by AttachmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1[0m
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered attachments/show.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 173ms (Views: 170.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-05-15 16:13:19 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAttachment Load (0.4ms)[0m  SELECT `attachments`.* FROM `attachments` WHERE `attachments`.`user_id` = '1'
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1[0m
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 152ms (Views: 149.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2015-05-15 16:13:21 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT `attachments`.* FROM `attachments`
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  Rendered attachments/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 142ms (Views: 140.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-05-15 16:13:22 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 147ms (Views: 145.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2015-05-15 16:13:23 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT `attachments`.* FROM `attachments`
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.4ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  Rendered attachments/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 158ms (Views: 155.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-05-15 16:13:24 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 146ms (Views: 145.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2015-05-15 16:13:24 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.3ms)[0m  SELECT `attachments`.* FROM `attachments`
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images` WHERE `images`.`attachment_id` = 1
+  Rendered attachments/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 146ms (Views: 144.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-05-15 16:13:26 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 153ms (Views: 151.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2015-05-15 16:13:27 +0530
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT `images`.* FROM `images`
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `attachments`.* FROM `attachments` WHERE `attachments`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1  [["id", "1"]]
+  Rendered images/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 158ms (Views: 156.4ms | ActiveRecord: 1.0ms)
